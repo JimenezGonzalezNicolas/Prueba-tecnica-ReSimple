@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.rotate-chevron{
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.classic-chevron{
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+.transition-item {
+  transition: height 0.3s ease, opacity 0.3s ease;
+}
